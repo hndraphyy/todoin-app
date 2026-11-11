@@ -1,0 +1,54 @@
+# ==========================================
+# MOBILE (React Native / Expo)
+# ==========================================
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/expo-env.d.ts
+
+# Native folders
+mobile/.kotlin/
+mobile/*.orig.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/ios/
+mobile/android/
+
+# Metro & Debug
+mobile/.metro-health-check*
+mobile/npm-debug.*
+mobile/yarn-debug.*
+mobile/yarn-error.*
+
+# ==========================================
+# SERVER (Golang)
+# ==========================================
+# Binary
+server/bin/
+server/server
+server/*.exe
+
+# Database (SQLite)
+server/data/*.db
+server/data/*.db-*
+server/*.db
+
+# ==========================================
+# UMUM (Root)
+# ==========================================
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Contoh environment (jika nanti butuh)
+# example
